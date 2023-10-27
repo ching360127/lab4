@@ -37,13 +37,13 @@ public class MainActivity2 extends AppCompatActivity {
         rg2=findViewById(R.id.radioGroup2);
         rg2.setOnCheckedChangeListener((radioGroup,i) -> {
             if(i==R.id.radioButton5) {
-                sugar = "去冰";
+                ice_opt = "去冰";
             } else if(i==R.id.radioButton6) {
-                sugar = "微冰";
+                ice_opt = "微冰";
             } else if(i==R.id.radioButton7) {
-                sugar = "少冰";
+                ice_opt = "少冰";
             } else if(i==R.id.radioButton8) {
-                sugar = "正常冰";
+                ice_opt = "正常冰";
             }
         });
 
